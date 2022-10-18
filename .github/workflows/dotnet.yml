@@ -28,8 +28,7 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.4
       with:
-        # Artifact name
         name: website
-        path: SimpleFeedReader/website**
+        path: SimpleFeedReader/website/**
         if-no-files-found: error
     
